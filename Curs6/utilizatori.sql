@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS social_media;
 CREATE DATABASE social_media;
 USE social_media;
 CREATE TABLE utilizator
