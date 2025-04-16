@@ -3,7 +3,7 @@ USE social_media;
 CREATE TABLE utilizator
 	(id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(255));
 
-DROP TABLE postare;
+DROP TABLE IF EXISTS postare;
 CREATE TABLE postare 
 	(id INT PRIMARY KEY AUTO_INCREMENT, title VARCHAR(255),
     id_user INT,
